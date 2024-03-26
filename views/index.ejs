@@ -6,13 +6,15 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Welcome <%= locals.name || 'world' %></h1>
-   <!-- <form action=" " method="get">
+    <!-- <h1>Welcome <%= locals.name || 'world' %></h1> -->
+   <form action="/data" method="POST">
         <label>Name</label>
         <input type="text" name="name" id ="name" placeholder="Enter Your Name"/>
+        <br>
         <label>RegisterNumber</label>
         <input type="number" name="regid" id ="RegId" placeholder="Enter Your RegisterNumber"/>
+        <br>
         <button type="submit">submit</button>
-    </form>  -->
+    </form> 
 </body>
 </html>
