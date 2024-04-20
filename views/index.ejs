@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -6,15 +6,14 @@
     <title>Document</title>
 </head>
 <body>
-    <!-- <h1>Welcome <%= locals.name || 'world' %></h1> -->
-   <form action="/data" method="POST">
-        <label>Name</label>
-        <input type="text" name="name" id ="name" placeholder="Enter Your Name"/>
-        <br>
-        <label>RegisterNumber</label>
-        <input type="number" name="regid" id ="RegId" placeholder="Enter Your RegisterNumber"/>
-        <br>
-        <button type="submit">submit</button>
-    </form> 
+     <h1>Welcome <%= locals.name || 'world' %></h1> -->
+<form action="/api/v1/data" method="post">
+    <label>Name</label>
+    <input type="text" name="name" id="name" placeholder="Enter Your Name" />
+    <label>RegisterNumber</label>
+    <input type="number" name="regid" id="RegId" placeholder="Enter Your RegisterNumber" />
+    <button type="submit">submit</button>
+</form>
 </body>
+
 </html>
